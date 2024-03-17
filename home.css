@@ -1,0 +1,129 @@
+
+#home{
+    padding: 10px;
+    height: 900px;
+}
+.parent1{
+    display: flex;
+    position: relative;
+}
+.logoImage{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    padding: 10px;;
+}
+.homeWritting{
+    display: flex;
+    position: relative;
+    padding:10px;
+    top:100px;
+   
+    
+}
+
+   
+.parent2{
+    display: flex;
+    position: relative;
+    padding: 30px;
+}   
+
+.card{
+    
+    background-color: antiquewhite;
+    display: flex;
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    padding: 40px;
+
+    
+}   
+
+#contact{
+    padding-top: 250px;
+}
+
+.container{
+    padding: 20px 60px 30px 40px;
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+  }
+  .container .content .left-side{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #c47026;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #d38622;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+ .end{
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: #d6731d;
+ }
